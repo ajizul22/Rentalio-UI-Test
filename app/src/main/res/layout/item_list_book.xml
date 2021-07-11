@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        tools:text="1"/>
+
+    <TextView
+        android:id="@+id/tv_driver_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        tools:text="without driver"/>
+
+    <TextView
+        android:id="@+id/tv_transmission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        tools:text="AT"/>
+
+    <TextView
+        android:id="@+id/tv_start_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        tools:text="monday 12, July 2021"/>
+
+    <TextView
+        android:id="@+id/tv_end_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        tools:text="tuesday 13, July 2021"/>
+
+    <TextView
+        android:id="@+id/tv_total_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        tools:text="1 Days"/>
+
+    <TextView
+        android:id="@+id/tv_total_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginBottom="16dp"
+        tools:text="RP. 350.000"/>
+
+
+
+</LinearLayout>
